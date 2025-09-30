@@ -4,21 +4,21 @@ MongoDB (local or remote)
 
 2. Installation
 Clone the repository
--`git clone https://github.com/nishikasingh31/Online-Quiz-API.git`
--`cd Online-Quiz-API`
+- `git clone https://github.com/nishikasingh31/Online-Quiz-API.git`
+- `cd Online-Quiz-API`
 
 3. Install Dependencies
--`npm install`
+- `npm install`
 
 4. Set up environment variables
 Create a .env file in the project root.
 Example:
--`PORT=3000`
--`MONGODB_URI=mongodb://localhost:27017/online-quiz`
+- `PORT=3000`
+- `MONGODB_URI=mongodb://localhost:27017/online-quiz`
 
 5. Running the Project
 Start the server in development mode:
--`npm run dev`
+- `npm run dev`
 Or start normally:
 -`npm start`
 
