@@ -32,8 +32,3 @@ Or start normally:
 - `GET /api/quizzes/:quizId/questions` - Get questions for a quiz
 - `POST /api/quizzes/:quizId/submit` - Submit answers and receive score
 
-7. Deployment
-To deploy your app:
-- Host on any Node.js compatible platform (Heroku, Vercel, DigitalOcean, AWS, etc.)
-- Set your environment variables (`PORT`, `MONGODB_URI`) on your host
-- Use your host’s recommended method to start the Node.js app
