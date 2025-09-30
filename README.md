@@ -1,4 +1,4 @@
-##1. Prerequisites
+1. Prerequisites
 
 Node.js (v14 or newer)
 MongoDB (local or remote)
@@ -27,6 +27,15 @@ npm run dev
 Or start normally:
 npm start
 
+6. API Endpoints
+- `POST /api/quizzes` - Create a quiz
+- `POST /api/quizzes/:quizId/questions` - Add questions to a quiz
+- `GET /api/quizzes` - List all quizzes
+- `GET /api/quizzes/:quizId/questions` - Get questions for a quiz
+- `POST /api/quizzes/:quizId/submit` - Submit answers and receive score
 
-bash
-npm start
+7. Deployment
+To deploy your app:
+- Host on any Node.js compatible platform (Heroku, Vercel, DigitalOcean, AWS, etc.)
+- Set your environment variables (`PORT`, `MONGODB_URI`) on your host
+- Use your host’s recommended method to start the Node.js app
