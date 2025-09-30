@@ -9,8 +9,7 @@ bash
 git clone https://github.com/nishikasingh31/Online-Quiz-API.git
 cd Online-Quiz-API
 
-3.
-Install dependencies
+3.Install dependencies
 bash
 npm install
 
