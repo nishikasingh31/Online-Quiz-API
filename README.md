@@ -15,6 +15,7 @@ Create a .env file in the project root.
 Example:
 - `PORT=3000`
 - `MONGODB_URI=mongodb://localhost:27017/online-quiz`
+- if using mongodb atlas -> add connection string
 
 5. Running the Project
 Start the server in development mode:
