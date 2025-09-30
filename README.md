@@ -2,9 +2,16 @@ This Online Quiz API is a backend service built using Node.js and MongoDB for cr
 
 1. Prerequisites
 Node.js (v14 or newer)
-MongoDB (local or remote)
+MongoDB (local or remote) <br>
 
-2. Installation
+2. Tech Stack
+- **Backend:** Node.js, Express
+- **Database:** MongoDB with Mongoose
+- **Validation:** Joi
+- **Testing:** Jest (unit tests for scoring logic)
+- **API Testing:** Postman
+
+3. Installation
 Clone the repository
 - `git clone https://github.com/nishikasingh31/Online-Quiz-API.git`
 - `cd Online-Quiz-API`
