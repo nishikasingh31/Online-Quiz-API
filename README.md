@@ -32,7 +32,10 @@ Start the server in development mode:
 Or start normally:
 -`npm start`
 
-6. API Endpoints<br>
+6. Example Request/Response <br>
+[Postman API.pdf](https://github.com/user-attachments/files/22627398/Postman.API.pdf)
+
+7. API Endpoints<br>
 Quiz Management<br>
 - `POST /api/quizzes` - Create a quiz
 - `POST /api/quizzes/:quizId/questions` - Add questions to a quiz
@@ -41,7 +44,7 @@ Quiz Taking<br>
 - `GET /api/quizzes/:quizId/questions` - Get questions for a quiz
 - `POST /api/quizzes/:quizId/submit` - Submit answers and receive score
 
-7. Running Test Cases<br>
+8. Running Test Cases<br>
 - Install dependencies with npm install. <br>
 `npm install jest` <br>
 - If you have test scripts set up, run the tests using: <br>
@@ -50,7 +53,4 @@ Quiz Taking<br>
 `"scripts": {
   "test": "jest"
 } `
-
-8.Example Request/Response <br>
-[Postman API.pdf](https://github.com/user-attachments/files/22627398/Postman.API.pdf)
 
