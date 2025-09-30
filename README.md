@@ -40,12 +40,12 @@ Or start normally:
 - `POST /api/quizzes/:quizId/submit` - Submit answers and receive score
 
 7. Running Test Cases<br>
-Install dependencies with npm install.
-- `npm install jest` <br>
-If you have test scripts set up, run the tests using:
-- `npm test` <br>
-Make sure your package.json includes a test script like:
-- `"scripts": {
+- Install dependencies with npm install. <br>
+`npm install jest` <br>
+- If you have test scripts set up, run the tests using: <br>
+`npm test` <br>
+- Make sure your package.json includes a test script like: <br>
+`"scripts": {
   "test": "jest"
 } `
 
