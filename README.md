@@ -1,8 +1,8 @@
 This Online Quiz API is a backend service built using Node.js and MongoDB for creating and managing quizzes. It supports different types of questions, including single choice, multiple choice, and text-based answers. The API allows users to create quizzes, add questions, submit answers, and receive scores in real-time. Data validation is handled by Joi to ensure only valid quizzes and questions are saved.
 
 1. Prerequisites: <br>
-Node.js (v14 or newer) <br>
-MongoDB (local or remote) <br>
+- **Node.js (v14 or newer)** <br>
+- **MongoDB (local or remote)** <br>
 
 2. Tech Stack
 - **Backend:** Node.js, Express
