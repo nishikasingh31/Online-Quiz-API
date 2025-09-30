@@ -32,10 +32,12 @@ Start the server in development mode:
 Or start normally:
 -`npm start`
 
-6. API Endpoints
+6. API Endpoints<br>
+Quiz Management<br>
 - `POST /api/quizzes` - Create a quiz
 - `POST /api/quizzes/:quizId/questions` - Add questions to a quiz
 - `GET /api/quizzes` - List all quizzes
+Quiz Taking<br>
 - `GET /api/quizzes/:quizId/questions` - Get questions for a quiz
 - `POST /api/quizzes/:quizId/submit` - Submit answers and receive score
 
@@ -48,4 +50,6 @@ Or start normally:
 `"scripts": {
   "test": "jest"
 } `
+
+[Postman API.pdf](https://github.com/user-attachments/files/22627398/Postman.API.pdf)
 
